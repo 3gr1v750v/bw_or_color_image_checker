@@ -7,6 +7,10 @@
 Дополнительно можно указать погрешность анализа на наличие цветности
 в процентах.
 
+## Библиотеки
+- requests
+- pillow
+
 ## Запуск проекта
 Через терминал:
 ```
@@ -17,6 +21,5 @@ python main.py <percentage_of_error>, '<image_url>'
 ```
 python main.py 5, 'https://img.freepik.com/free-photo/greyscale-shot-of-a-wooden-dog-near-the-sea-with-fog_181624-14738.jpg?w=1380&t=st=1702564184~exp=1702564784~hmac=
 5d23d047b3a4c6bde816e8a04b2fed11f5089fbd70faff7b17ad1832a99b2fcd'
-
 ```
 В терминал будет возвращён ответ: 'Черно-белая' или 'Цветная'
