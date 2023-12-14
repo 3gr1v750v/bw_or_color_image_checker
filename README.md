@@ -9,6 +9,7 @@
 в процентах.
 
 ## Библиотеки
+- python 3.11
 - requests
 - pillow
 
